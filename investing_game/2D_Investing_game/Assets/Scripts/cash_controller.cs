@@ -9,10 +9,10 @@ public class cash_controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
         _view
-            = new cash_view();
+        = new cash_view();
         _model
-            = new cash_model();
-	}
+        = new cash_model();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -23,5 +23,6 @@ public class cash_controller : MonoBehaviour {
     public cash_controller()
     {
         Debug.Log("Hi");
+        
     }
 }

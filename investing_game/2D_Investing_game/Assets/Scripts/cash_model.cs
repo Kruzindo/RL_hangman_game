@@ -41,5 +41,8 @@ public class cash_model : MonoBehaviour {
         rente           //rente op huidige bedrag op de bank
     }
 
-    
+ void Start()
+    {
+        Debug.Log("cash_model has been made"); 
+    }   
 }
